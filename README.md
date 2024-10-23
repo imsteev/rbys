@@ -1,5 +1,20 @@
-# randombytes
+# rbys
 
+🗣️ pronounced "ar-bees"
+
+## Usage
+```bash
+rbys <n>
+
+      n (int, optional) number of bytes to generate. default is 32.
+```
+
+### executable
+```bash
+bun build ./index.ts --outfile rbys --compile
+```
+
+### develop
 To install dependencies:
 
 ```bash
