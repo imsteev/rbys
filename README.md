@@ -12,6 +12,9 @@ rbys <n>
 ### executable
 ```bash
 bun build ./index.ts --outfile rbys --compile
+
+# or you can run convenience script in package.json:
+bun run build
 ```
 
 ### develop
